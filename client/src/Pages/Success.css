@@ -1,0 +1,27 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    padding: 10px;
+    background-color: teal;
+    color: white;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+p{
+    font-size: 15px;
+}
